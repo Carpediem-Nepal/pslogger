@@ -1,2 +1,2 @@
-# pslogger
-This is the custom logger for PixelShift that manages logging based on the application environment.
+# logger_wrapper
+This is the logger wrapper for handling logfire as logger in production and structlog as logger in other envs

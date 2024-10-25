@@ -1,0 +1,11 @@
+[project]
+name = "logger-wrapper"
+version = "0.1.1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["logfire>=0.54.0", "structlog>=24.4.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

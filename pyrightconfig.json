@@ -1,0 +1,7 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "include": ["src/**/*.py"],
+  "exclude": ["tests"],
+  "extraPaths": ["core", "meta", "clouds"]
+}
