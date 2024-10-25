@@ -8,7 +8,7 @@ import structlog
 from pslogger.constants import LOGGER_COLORS
 
 
-class PIXLogger:
+class PSLogger:
     show_source_location: bool = True
 
     def __init__(self) -> None:
