@@ -5,7 +5,7 @@ from typing import Callable, cast
 import logfire
 import structlog
 
-from logger_wrapper.constants import LOGGER_COLORS
+from pslogger.constants import LOGGER_COLORS
 
 
 class PIXLogger:

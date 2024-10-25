@@ -108,7 +108,7 @@ wheels = [
 
 [[package]]
 name = "logger-wrapper"
-version = "0.1.0"
+version = "0.1.1"
 source = { editable = "." }
 dependencies = [
     { name = "logfire" },
@@ -118,7 +118,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "logfire", specifier = ">=0.54.0" },
-    { name = "structlog" },
+    { name = "structlog", specifier = ">=24.4.0" },
 ]
 
 [[package]]
